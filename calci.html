@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculator And Converter</h1>
+      <div class="calculator">
+        <div class="screen">
+          <input type="text" id="result" value="">
+        </div>
+        <div class="buttons">
+          <button onclick="clearScreen()">C</button>
+          <button onclick="back()">←</button>
+          <button onclick="addValue('%')">%</button>
+          <button onclick="addValue('/')">÷</button>
+          <button onclick="addValue('7')">7</button>
+          <button onclick="addValue('8')">8</button>
+          <button onclick="addValue('9')">9</button>
+          <button onclick="addValue('*')">x</button>
+          <button onclick="addValue('4')">4</button>
+          <button onclick="addValue('5')">5</button>
+          <button onclick="addValue('6')">6</button>
+          <button onclick="addValue('-')">-</button>
+          <button onclick="addValue('1')">1</button>
+          <button onclick="addValue('2')">2</button>
+          <button onclick="addValue('3')">3</button>
+          <button onclick="addValue('+')">+</button>
+          <button onclick="addValue('0')">0</button>
+          <button onclick="addValue('.')">.</button>
+          <button onclick="calculate()">=</button>
+          <button onclick="addValue('**')">^</button>
+          <button onclick="convertToF()">°C to °F</button>
+          <button onclick="convertToC()">°F to °C</button>
+          <button onclick="convertToFoot()">m to Ft</button>
+          <button onclick="convertToMeter()">Ft to m</button>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
